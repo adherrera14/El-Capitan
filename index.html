@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Capitan - Experiencia Exclusiva de Lujo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="ElCapitan-Logo.jpeg" alt="El Capitan Logo" class="logo-img">
+                <span class="logo-text">EL CAPITAN</span>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#inicio" class="nav-link" data-es="Inicio" data-en="Home"></a>
+                <a href="#experiencia" class="nav-link" data-es="Experiencia" data-en="Experience"></a>
+                <a href="#servicios" class="nav-link" data-es="Servicios" data-en="Services"></a>
+                <a href="#paquetes" class="nav-link" data-es="Paquetes" data-en="Packages"></a>
+                <a href="#contacto" class="nav-link" data-es="Contacto" data-en="Contact"></a>
+                <div class="language-switcher">
+                    <button class="lang-btn" id="langBtn">
+                        <span class="lang-current">ES</span>
+                    </button>
+                </div>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="inicio" style="background-image: url('images/hero.jpg'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h1 class="hero-title" data-es="ENTRA EN UN MUNDO<br>DE LUJO Y DISTINCIÓN" data-en="ENTER A WORLD<br>OF LUXURY AND DISTINCTION"></h1>
+            <p class="hero-subtitle" data-es="Una experiencia incomparable para los hombres que aprecian la elegancia" data-en="An incomparable experience for men who appreciate elegance"></p>
+            <div class="hero-buttons">
+                <a href="#paquetes" class="btn btn-primary" data-es="RESERVE AHORA" data-en="BOOK NOW"></a>
+                <a href="#servicios" class="btn btn-secondary" data-es="VER SERVICIOS" data-en="VIEW SERVICES"></a>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experiencia" id="experiencia">
+        <div class="container">
+            <h2 class="section-title" data-es="La Experiencia El Capitan" data-en="The El Capitan Experience"></h2>
+            <p class="section-subtitle" data-es="Ubicado en el corazón de la ciudad, El Capitan ofrece una escapada de lujo incomparable" data-en="Located in the heart of the city, El Capitan offers an unparalleled luxury getaway"></p>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="card-image">
+                        <img src="images/experience-1.jpg" alt="Entretenimiento de Clase Mundial" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-es="Entretenimiento de Clase Mundial" data-en="World-Class Entertainment"></h3>
+                        <p data-es="Espectáculos cautivadores diseñados para sorprender y deleitar, con artistas de calibre internacional." data-en="Captivating shows designed to surprise and delight, featuring international-caliber artists."></p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-image">
+                        <img src="images/experience-2.jpg" alt="Ambiente Sofisticado" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-es="Ambiente Sofisticado" data-en="Sophisticated Atmosphere"></h3>
+                        <p data-es="Diseño de lujo con iluminación ambiente, rincones privados e instalaciones de clase mundial." data-en="Luxurious design with ambient lighting, private nooks, and world-class facilities."></p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-image">
+                        <img src="images/experience-3.jpg" alt="Servicio Premium" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-es="Servicio Premium" data-en="Premium Service"></h3>
+                        <p data-es="Atención personalizada y discreta, garantizando tu comodidad y satisfacción en todo momento." data-en="Personalized and discreet attention, ensuring your comfort and satisfaction at all times."></p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-image">
+                        <img src="images/experience-4.jpg" alt="Bebidas Selectas" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-es="Bebidas Selectas" data-en="Premium Beverages"></h3>
+                        <p data-es="Selección curada de bebidas premium, vinos finos y licores de alta gama servidos con elegancia." data-en="Curated selection of premium beverages, fine wines, and high-end spirits served with elegance."></p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-image">
+                        <img src="images/experience-5.jpg" alt="Salas Privadas" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-es="Salas Privadas" data-en="Private Rooms"></h3>
+                        <p data-es="Espacios exclusivos diseñados para máxima privacidad, perfectos para celebraciones y eventos especiales." data-en="Exclusive spaces designed for maximum privacy, perfect for celebrations and special events."></p>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="card-image">
+                        <img src="images/experience-6.jpg" alt="Distinciones VIP" class="card-img">
+                    </div>
+                    <div class="card-content">
+                        <h3 data-es="Distinciones VIP" data-en="VIP Benefits"></h3>
+                        <p data-es="Programa exclusivo para miembros con beneficios especiales, acceso prioritario y experiencias personalizadas." data-en="Exclusive membership program with special benefits, priority access, and personalized experiences."></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="servicios" id="servicios">
+        <div class="container">
+            <h2 class="section-title" data-es="Nuestros Servicios" data-en="Our Services"></h2>
+            <p class="section-subtitle" data-es="Cada detalle cuidadosamente diseñado para tu satisfacción" data-en="Every detail carefully designed for your satisfaction"></p>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">🎭</div>
+                    <h3 data-es="Espectáculos Nocturnos" data-en="Evening Shows"></h3>
+                    <p data-es="Presentaciones exclusivas que combinan artística, elegancia y seducción en un ambiente de lujo." data-en="Exclusive presentations combining artistry, elegance, and allure in a luxurious setting."></p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🥂</div>
+                    <h3 data-es="Servicio de Botellas" data-en="Bottle Service"></h3>
+                    <p data-es="Acceso a una colección selecta de bebidas premium, servidas con atención y estilo impecables." data-en="Access to a select collection of premium beverages, served with impeccable attention and style."></p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🎉</div>
+                    <h3 data-es="Eventos Privados" data-en="Private Events"></h3>
+                    <p data-es="Despedidas, cumpleaños y celebraciones personalizadas en un ambiente exclusivo y distinguido." data-en="Bachelor parties, birthdays, and customized celebrations in an exclusive, distinguished setting."></p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">💎</div>
+                    <h3 data-es="Experiencia VIP" data-en="VIP Experience"></h3>
+                    <p data-es="Paquetes premium con beneficios exclusivos, acceso prioritario y trato personalizado." data-en="Premium packages with exclusive benefits, priority access, and personalized treatment."></p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🌟</div>
+                    <h3 data-es="Membresía Élite" data-en="Elite Membership"></h3>
+                    <p data-es="Programa de membresía con descuentos especiales, invitaciones a eventos exclusivos y más." data-en="Membership program with special discounts, exclusive event invitations, and more."></p>
+                </div>
+
+                <div class="service-item">
+                    <div class="service-icon">🍾</div>
+                    <h3 data-es="Catas y Degustaciones" data-en="Tastings & Samplings"></h3>
+                    <p data-es="Eventos especiales para explorar y disfrutar de bebidas premium con expertos en la materia." data-en="Special events to explore and enjoy premium beverages with industry experts."></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section class="paquetes" id="paquetes">
+        <div class="container">
+            <h2 class="section-title" data-es="Paquetes Exclusivos" data-en="Exclusive Packages"></h2>
+            <p class="section-subtitle" data-es="Diseñados para experiencias inolvidables" data-en="Designed for unforgettable experiences"></p>
+            
+            <div class="packages-grid">
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3 data-es="ESSENTIAL EXPERIENCE" data-en="ESSENTIAL EXPERIENCE"></h3>
+                        <div class="package-price">
+                            <span class="price">$199</span>
+                            <span class="price-desc" data-es="por persona" data-en="per person"></span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li data-es="✓ Entrada exclusiva para 2 personas" data-en="✓ Exclusive entry for 2 people"></li>
+                        <li data-es="✓ Bebida de bienvenida" data-en="✓ Welcome drink"></li>
+                        <li data-es="✓ Acceso a área general" data-en="✓ General area access"></li>
+                        <li data-es="✓ Espectáculos de entretenimiento" data-en="✓ Entertainment shows"></li>
+                        <li data-es="✓ Horario de 10 PM a 2 AM" data-en="✓ Hours: 10 PM to 2 AM"></li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-secondary btn-block" data-es="RESERVAR" data-en="BOOK"></a>
+                </div>
+
+                <div class="package-card featured">
+                    <div class="package-badge" data-es="POPULAR" data-en="POPULAR"></div>
+                    <div class="package-header">
+                        <h3 data-es="PREMIUM QUARTET" data-en="PREMIUM QUARTET"></h3>
+                        <div class="package-price">
+                            <span class="price">$399</span>
+                            <span class="price-desc" data-es="para 4 personas" data-en="for 4 people"></span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li data-es="✓ Entrada para 4 personas" data-en="✓ Entry for 4 people"></li>
+                        <li data-es="✓ Botella de licor premium" data-en="✓ Premium liquor bottle"></li>
+                        <li data-es="✓ Acceso VIP Lounge" data-en="✓ VIP Lounge access"></li>
+                        <li data-es="✓ Bailes cortesía en área VIP" data-en="✓ Complimentary dances in VIP area"></li>
+                        <li data-es="✓ Aperitivos y snacks" data-en="✓ Appetizers and snacks"></li>
+                        <li data-es="✓ Estacionamiento preferente" data-en="✓ Preferred parking"></li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-primary btn-block" data-es="RESERVAR AHORA" data-en="BOOK NOW"></a>
+                </div>
+
+                <div class="package-card">
+                    <div class="package-header">
+                        <h3 data-es="EXCLUSIVE SOIRÉE" data-en="EXCLUSIVE SOIRÉE"></h3>
+                        <div class="package-price">
+                            <span class="price">$699</span>
+                            <span class="price-desc" data-es="para 6 personas" data-en="for 6 people"></span>
+                        </div>
+                    </div>
+                    <ul class="package-features">
+                        <li data-es="✓ Entrada para 6 personas" data-en="✓ Entry for 6 people"></li>
+                        <li data-es="✓ 2 botellas premium seleccionadas" data-en="✓ 2 premium bottles"></li>
+                        <li data-es="✓ Acceso VIP Suite privada" data-en="✓ Private VIP Suite access"></li>
+                        <li data-es="✓ Personal dedicado" data-en="✓ Dedicated staff"></li>
+                        <li data-es="✓ Tabla de quesos y charcutería" data-en="✓ Cheese and charcuterie board"></li>
+                        <li data-es="✓ Estacionamiento preferente" data-en="✓ Preferred parking"></li>
+                    </ul>
+                    <a href="#contacto" class="btn btn-secondary btn-block" data-es="RESERVAR" data-en="BOOK"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="acerca">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title" data-es="Acerca de El Capitan" data-en="About El Capitan"></h2>
+                    <p data-es="El Capitan es un destino exclusivo para hombres que aprecian las cosas finas de la vida. Con un ambiente sofisticado, diseño de lujo y un equipo dedicado a tu satisfacción, ofrecemos una experiencia que trasciende lo ordinario." data-en="El Capitan is an exclusive destination for men who appreciate the finer things in life. With a sophisticated atmosphere, luxurious design, and a team dedicated to your satisfaction, we offer an experience that transcends the ordinary."></p>
+                    <p data-es="Cada noche en El Capitan es una oportunidad para celebrar, relajarse y disfrutar de entretenimiento de clase mundial en un ambiente discreto y distinguido. Nuestro compromiso es crear recuerdos inolvidables que superan todas las expectativas." data-en="Every night at El Capitan is an opportunity to celebrate, relax, and enjoy world-class entertainment in a discreet and distinguished atmosphere. Our commitment is to create unforgettable memories that exceed all expectations."></p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <h4 data-es="Ubicación Premium" data-en="Premium Location"></h4>
+                            <p data-es="En el corazón de la ciudad" data-en="In the heart of the city"></p>
+                        </div>
+                        <div class="highlight">
+                            <h4 data-es="Entretenimiento" data-en="Entertainment"></h4>
+                            <p data-es="Artistas de talla mundial" data-en="World-class artists"></p>
+                        </div>
+                        <div class="highlight">
+                            <h4 data-es="Lujo Total" data-en="Total Luxury"></h4>
+                            <p data-es="Diseño y servicio impecables" data-en="Impeccable design and service"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <h2 class="section-title" data-es="Ponerse en Contacto" data-en="Get In Touch"></h2>
+            <p class="section-subtitle" data-es="Reserva tu experiencia exclusiva hoy" data-en="Book your exclusive experience today"></p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h3 data-es="Ubicación" data-en="Location"></h3>
+                        <p data-es="Centro de la ciudad<br>Disponible por consulta" data-en="Downtown<br>Available by inquiry"></p>
+                    </div>
+                    <div class="info-item">
+                        <h3 data-es="Horario" data-en="Hours"></h3>
+                        <p data-es="Miércoles a Domingo<br>10 PM - 4 AM" data-en="Wednesday to Sunday<br>10 PM - 4 AM"></p>
+                    </div>
+                    <div class="info-item">
+                        <h3 data-es="Contacto" data-en="Contact"></h3>
+                        <p>Teléfono: +1 (555) 123-4567<br>Email: info@elcapitan.club</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" data-es-ph="Tu Nombre" data-en-ph="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" data-es-ph="Tu Email" data-en-ph="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" data-es-ph="Tu Teléfono" data-en-ph="Your Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea data-es-ph="Mensaje o Detalles de Reserva" data-en-ph="Message or Booking Details" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" data-es="ENVIAR MENSAJE" data-en="SEND MESSAGE"></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>El Capitan</h4>
+                    <p data-es="Una experiencia exclusiva de lujo y distinción" data-en="An exclusive experience of luxury and distinction"></p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-es="Rápidos Enlaces" data-en="Quick Links"></h4>
+                    <ul>
+                        <li><a href="#inicio" data-es="Inicio" data-en="Home"></a></li>
+                        <li><a href="#experiencia" data-es="Experiencia" data-en="Experience"></a></li>
+                        <li><a href="#servicios" data-es="Servicios" data-en="Services"></a></li>
+                        <li><a href="#paquetes" data-es="Paquetes" data-en="Packages"></a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-es="Redes Sociales" data-en="Social Media"></h4>
+                    <div class="social-links">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">𝕏</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p><span data-es="&copy; 2024 El Capitan. Todos los derechos reservados." data-en="&copy; 2024 El Capitan. All rights reserved."></span> | <a href="#" data-es="Política de Privacidad" data-en="Privacy Policy"></a> | <a href="#" data-es="Términos de Servicio" data-en="Terms of Service"></a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
